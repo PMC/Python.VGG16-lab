@@ -48,6 +48,8 @@
 
 ### 19: Test on Snowman
 
+### Top 10
+
 1: water_bottle (61.72%)</br>
 2: milk_can (18.44%)</br>
 3: cocktail_shaker (5.64%)</br>
@@ -58,5 +60,11 @@
 8: pill_bottle (1.31%)</br>
 9: nipple (1.28%)</br>
 10: cup (1.25%)</br>
+
+### Top 3
+
+1: trench_coat (56.49%)</br>
+2: kimono (31.23%)</br>
+3: stole (12.28%)</br>
 
 conclusion, VGG16 and 19 dont know what a Snowman is haha
