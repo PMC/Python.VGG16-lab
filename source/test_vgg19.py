@@ -1,12 +1,12 @@
-from tensorflow.keras.applications.vgg16 import (
-    VGG16,
+from tensorflow.keras.applications.vgg19 import (
+    VGG19,
     preprocess_input,
     decode_predictions,
 )
 from tensorflow.keras.preprocessing import image
 import numpy as np
 
-model = VGG16(weights="imagenet")
+model = VGG19(weights="imagenet")
 img_path = "img/avatar.png"
 # img_path = "img/snowman.jpg"
 
@@ -20,7 +20,7 @@ x = preprocess_input(x)
 
 preds = model.predict(x)
 
-# Decode the predictions
+# Decode the predictions, top_n returns the top n predictions
 top_n = 10
 decoded = decode_predictions(preds, top=top_n)[0]
 total_prob = sum(prob for (_, _, prob) in decoded)
