@@ -35,6 +35,8 @@
 
 ### 19: Test on Avatar
 
+### Top 10
+
 1: trench_coat (35.89%)</br>
 2: kimono (19.84%)</br>
 3: stole (7.80%)</br>
@@ -45,6 +47,12 @@
 8: sweatshirt (4.39%)</br>
 9: sombrero (3.88%)</br>
 10: maraca (3.67%)</br>
+
+### Top 3
+
+1: trench_coat (56.49%)</br>
+2: kimono (31.23%)</br>
+3: stole (12.28%)</br>
 
 ### 19: Test on Snowman
 
@@ -60,11 +68,5 @@
 8: pill_bottle (1.31%)</br>
 9: nipple (1.28%)</br>
 10: cup (1.25%)</br>
-
-### Top 3
-
-1: trench_coat (56.49%)</br>
-2: kimono (31.23%)</br>
-3: stole (12.28%)</br>
 
 conclusion, VGG16 and 19 dont know what a Snowman is haha
